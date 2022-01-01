@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&family=Mulish&display=swap');
+
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#header{
+    width: 100%;
+    height: 80vh;
+    margin-top: 0px;
 }
+#header h1{
+    margin: 0 0 10px 0;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+#header .brand-name{
+color: #3498db;
+}
+#header h2{
+    color:#565387 ;
+    font-size: 24px;
+}
+#header .btn-get-started{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #3498db;
+    border: 2px solid  #3498db;
+    text-decoration: none;
+    transition: 0.5s;
+}
+#header .btn-get-started:hover{
+    background-color: #3498db;
+    color: white;
+}
+.header-img{
+    text-align: center;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+.navbar-brand{
+    font-size: 1.9rem;
+    color: #565387 !important;
+}
+.navbar a{
+    font-size: 1.3rem;
+
+}
+.menu-active{
+    font-weight: bold;
+    color: red;
+    border-bottom: 1px solid #565387 !important ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
